@@ -1,7 +1,7 @@
 # Paper-Reding-Hsing
 # Video Instance Segmentation
 ## InstanceFormer: An Online Video Instance Segmentation Framework (AAAI2023)
-![Image](https://github.com/HarryHsing/Paper-Reading-Hsing/blob/master/instanceformer.png?raw=true)
+<img width="1100" alt="instanceformer" src="https://user-images.githubusercontent.com/36613867/206744239-1f112fd9-259e-492f-9a48-7e1408985574.png">
 A single-stage transformer-based efficient online VIS framework named InstanceFormer, which is especially suitable for long and challenging videos.
 1. Eliminate the need for an external tracking head or data association.
 2. Introduce a novel prior propagation module using reference points, class scores, and instance queries to enable efficient communication between consecutive frames.
