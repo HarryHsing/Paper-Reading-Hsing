@@ -1,6 +1,6 @@
 # Paper-Reding-Hsing
 ## Video Instance Segmentation
-### 1. [InstanceFormer: An Online Video Instance Segmentation Framework (AAAI2023)](https://arxiv.org/abs/2206.04403)
+### 1. [InstanceFormer: An Online Video Instance Segmentation Framework (AAAI2023)]([https://arxiv.org/abs/2206.04403](https://github.com/rajatkoner08/InstanceFormer))
 <img width="1100" alt="instanceformer" src="https://user-images.githubusercontent.com/36613867/206744239-1f112fd9-259e-492f-9a48-7e1408985574.png">
 A single-stage transformer-based efficient online VIS framework named InstanceFormer, which is especially suitable for long and challenging videos.
 
@@ -8,7 +8,7 @@ A single-stage transformer-based efficient online VIS framework named InstanceFo
 3. Introduce a novel prior propagation module using reference points, class scores, and instance queries to enable efficient communication between consecutive frames.
 4. Propose a novel memory module to which the current instance queries attend to recollect the recent past. Additionally, temporally contrastive training makes the memory discriminative and easy to identify.
 
-### 2. VITA: Video Instance Segmentation via Object Token Association (NIPS2022)
+### 2. [VITA: Video Instance Segmentation via Object Token Association (NIPS2022)](https://github.com/sukjunhwang/vita)
 
 We proposed VITA for offline Video Instance Segmentation. VITA is a simple model built on top of the off-the-shelf image instance segmentation model (Mask2Former). Unlike existing offline methods, VITA directly leverages object queries decoded by independent frame-level detectors.
 
