@@ -32,7 +32,11 @@ Our improved multi-cue clip tracking incorporates mask and class information to 
 
 Related Works:
 1. VisTR achieves communication between frames by concatenating and encoding the pixels of all frames jointly. Such a multi-frame processing only amplifies the expensive attention computation and makes [21] suffer from long training times and high memory requirements.
-
 2. IFC [11] tries to mitigate these issues by introducing inter-frame memory tokens to encode each frame individually. However, [11] still relies on full attention for single frames and hence inherits the limitations of [5,21] to only process low- and single-scale feature maps.
+
+<img width="781" alt="DeVIS_1" src="https://user-images.githubusercontent.com/36613867/207128307-4dcbd95d-13ff-480d-b467-005482ed7086.png">
+<img width="776" alt="DeVIS_2" src="https://user-images.githubusercontent.com/36613867/207128347-562736b0-84b8-4b8c-9c46-016a89db4901.png">
+
+
 
 
