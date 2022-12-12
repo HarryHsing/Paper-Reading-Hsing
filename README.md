@@ -24,6 +24,12 @@ Moreover, thanks to its object token-based structure that is disjoint from the b
 ### 3. [DeVIS: Making Deformable Transformers Work for Video Instance Segmentation (Arxiv2022)](https://github.com/acaelles97/devis)
 
 
+We present Deformable VIS (DeVIS), a VIS method which introduces temporal multi-scale deformable attention and instance-aware object queries.
+
+We present a new instance mask prediction head which takes full advantage of deformable attention and encoded multi-scale feature maps.
+
+Our improved multi-cue clip tracking incorporates mask and class information to connect overlapping clips to sequences of arbitrary length.
+
 VisTR achieves communication between frames by concatenating and encoding the pixels of all frames jointly. Such a multi-frame processing only amplifies the expensive attention computation and makes [21] suffer from long training times and high memory requirements.
 
 IFC [11] tries to mitigate these issues by introducing inter-frame memory tokens to encode each frame individually. However, [11] still relies on full attention for single frames and hence inherits the limitations of [5,21] to only process low- and single-scale feature maps.
