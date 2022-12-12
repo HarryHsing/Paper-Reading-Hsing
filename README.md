@@ -21,7 +21,7 @@ Moreover, thanks to its object token-based structure that is disjoint from the b
 <img width="809" alt="VITA_2" src="https://user-images.githubusercontent.com/36613867/206921057-ce015907-9707-443c-b1ca-33e82ca3509b.png">
 <img width="742" alt="VITA_1" src="https://user-images.githubusercontent.com/36613867/206921064-21a524fb-d748-4fd8-af1d-3e88e731b28d.png">
 
-### 3. [DeVIS: Making Deformable Transformers Work for Video Instance Segmentation (Arxiv)](https://github.com/acaelles97/devis)
+### 3. [DeVIS: Making Deformable Transformers Work for Video Instance Segmentation (Arxiv2022)](https://github.com/acaelles97/devis)
 
 
 VisTR achieves communication between frames by concatenating and encoding the pixels of all frames jointly. Such a multi-frame processing only amplifies the expensive attention computation and makes [21] suffer from long training times and high memory requirements.
