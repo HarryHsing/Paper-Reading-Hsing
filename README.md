@@ -37,6 +37,10 @@ Related Works:
 <img width="781" alt="DeVIS_1" src="https://user-images.githubusercontent.com/36613867/207128307-4dcbd95d-13ff-480d-b467-005482ed7086.png">
 <img width="776" alt="DeVIS_2" src="https://user-images.githubusercontent.com/36613867/207128347-562736b0-84b8-4b8c-9c46-016a89db4901.png">
 
+### 4.[MinVIS: A Minimal Video Instance Segmentation Framework without Video-based Training](https://github.com/NVlabs/MinVIS)
+
+We propose MinVIS, a minimal video instance segmentation (VIS) framework that achieves state-of-the-art VIS performance with neither video-based architectures nor training procedures. By only training a query-based image instance segmentation model, MinVIS outperforms the previous best result on the challenging Occluded VIS dataset by over 10% AP. Since MinVIS treats frames in training videos as independent images, we can drastically sub-sample the annotated frames in training videos without any modifications. With only 1% of labeled frames, MinVIS outperforms or is comparable to fully-supervised state-of-the-art approaches on YouTube-VIS 2019/2021. Our key observation is that queries trained to be discriminative between intra-frame object instances are temporally consistent and can be used to track instances without any manually designed heuristics. MinVIS thus has the following inference pipeline: we first apply the trained query-based image instance segmentation to video frames independently. The segmented instances are then tracked by bipartite matching of the corresponding queries. This inference is done in an online fashion and does not need to process the whole video at once.
+
 
 
 
