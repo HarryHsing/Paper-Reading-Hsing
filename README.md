@@ -46,6 +46,12 @@ We propose MinVIS, a minimal video instance segmentation (VIS) framework that ac
 
 ### 5. [IDOL: In Defense of Online Models for Video Instance Segmentation (ECCV2022)](https://github.com/wjf5203/VNext)
 
+We propose a framework In Defense of OnLine models for video instance segmentation, termed IDOL. The key idea is to ensure, in the embedding space, the similarity of the same instance across frames and the difference of differ- ent instances in all frames, even for instances that belong to the same category and have similar appearances.
+
+However, previous method [30] selects positive and negative samples by a hand-craft setting, introducing false positives in occlusions and crowded scenes, thus impairing contrastive learning. To address it, we formulate the problem of sample selection as an Optimal Transport problem in Optimization Theory, which reduces false positives and further improves the quality of the embedding. During inference, by using one-to-many temporally weighted softmax, we utilize the learned prior of the embedding to re-identify missing instances caused by occlusions and to enforce the consistency and integrality of associations.
+
+<img width="774" alt="image" src="https://user-images.githubusercontent.com/36613867/207661880-2bd364c0-035f-42b6-bbcf-e5ec4699c498.png">
+
 
 
 
