@@ -44,6 +44,8 @@ We propose MinVIS, a minimal video instance segmentation (VIS) framework that ac
 ![image](https://user-images.githubusercontent.com/36613867/207316720-2fa3b229-0b0c-410a-b4a8-9fc18b4973e3.png)
 ![image](https://user-images.githubusercontent.com/36613867/207316752-59283f77-85a6-46ca-bc2c-cfc4e3ae04c3.png)
 
+### 5. [IDOL: In Defense of Online Models for Video Instance Segmentation (ECCV2022)](https://github.com/wjf5203/VNext)
+
 
 
 
