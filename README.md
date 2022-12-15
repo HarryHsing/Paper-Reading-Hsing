@@ -10,7 +10,9 @@
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 ## Video Instance Segmentation
-### 1. [InstanceFormer: An Online Video Instance Segmentation Framework (AAAI2023)](https://github.com/rajatkoner08/InstanceFormer)
+### 1. InstanceFormer: An Online Video Instance Segmentation Framework (AAAI2023)
+[github](https://github.com/rajatkoner08/InstanceFormer)
+
 <img width="1100" alt="instanceformer" src="https://user-images.githubusercontent.com/36613867/206744239-1f112fd9-259e-492f-9a48-7e1408985574.png">
 A single-stage transformer-based efficient online VIS framework named InstanceFormer, which is especially suitable for long and challenging videos.
 
@@ -18,7 +20,8 @@ A single-stage transformer-based efficient online VIS framework named InstanceFo
 3. Introduce a novel prior propagation module using reference points, class scores, and instance queries to enable efficient communication between consecutive frames.
 4. Propose a novel memory module to which the current instance queries attend to recollect the recent past. Additionally, temporally contrastive training makes the memory discriminative and easy to identify.
 
-### 2. [VITA: Video Instance Segmentation via Object Token Association (NIPS2022)](https://github.com/sukjunhwang/vita)
+### 2. VITA: Video Instance Segmentation via Object Token Association (NIPS2022)
+[github](https://github.com/sukjunhwang/vita)
 
 We proposed VITA for offline Video Instance Segmentation. VITA is a simple model built on top of the off-the-shelf image instance segmentation model (Mask2Former). Unlike existing offline methods, VITA directly leverages object queries decoded by independent frame-level detectors.
 
@@ -26,13 +29,11 @@ Specifically, we use an image object detector as a means of distilling object-sp
 
 Moreover, thanks to its object token-based structure that is disjoint from the backbone features, VITA shows several practical advantages that previous offline VIS methods have not explored - handling long and high-resolution videos with a common GPU, and freezing a frame-level detector trained on image domain.
 
-
-
 <img width="809" alt="VITA_2" src="https://user-images.githubusercontent.com/36613867/206921057-ce015907-9707-443c-b1ca-33e82ca3509b.png">
 <img width="742" alt="VITA_1" src="https://user-images.githubusercontent.com/36613867/206921064-21a524fb-d748-4fd8-af1d-3e88e731b28d.png">
 
-### 3. [DeVIS: Making Deformable Transformers Work for Video Instance Segmentation (Arxiv2022)](https://github.com/acaelles97/devis)
-
+### 3. DeVIS: Making Deformable Transformers Work for Video Instance Segmentation (Arxiv2022)
+[github](https://github.com/acaelles97/devis)
 
 We present Deformable VIS (DeVIS), a VIS method which introduces temporal multi-scale deformable attention and instance-aware object queries.
 
@@ -47,14 +48,16 @@ Related Works:
 <img width="781" alt="DeVIS_1" src="https://user-images.githubusercontent.com/36613867/207128307-4dcbd95d-13ff-480d-b467-005482ed7086.png">
 <img width="776" alt="DeVIS_2" src="https://user-images.githubusercontent.com/36613867/207128347-562736b0-84b8-4b8c-9c46-016a89db4901.png">
 
-### 4. [MinVIS: A Minimal Video Instance Segmentation Framework without Video-based Training (NIPS2022)](https://github.com/NVlabs/MinVIS)
+### 4. MinVIS: A Minimal Video Instance Segmentation Framework without Video-based Training (NIPS2022)
+[github](https://github.com/NVlabs/MinVIS)
 
 We propose MinVIS, a minimal video instance segmentation (VIS) framework that achieves state-of-the-art VIS performance with neither video-based architectures nor training procedures. By only training a query-based image instance segmentation model, MinVIS outperforms the previous best result on the challenging Occluded VIS dataset by over 10% AP. Since MinVIS treats frames in training videos as independent images, we can drastically sub-sample the annotated frames in training videos without any modifications. With only 1% of labeled frames, MinVIS outperforms or is comparable to fully-supervised state-of-the-art approaches on YouTube-VIS 2019/2021. Our key observation is that queries trained to be discriminative between intra-frame object instances are temporally consistent and can be used to track instances without any manually designed heuristics. MinVIS thus has the following inference pipeline: we first apply the trained query-based image instance segmentation to video frames independently. The segmented instances are then tracked by bipartite matching of the corresponding queries. This inference is done in an online fashion and does not need to process the whole video at once.
 
 ![image](https://user-images.githubusercontent.com/36613867/207316720-2fa3b229-0b0c-410a-b4a8-9fc18b4973e3.png)
 ![image](https://user-images.githubusercontent.com/36613867/207316752-59283f77-85a6-46ca-bc2c-cfc4e3ae04c3.png)
 
-### 5. [IDOL: In Defense of Online Models for Video Instance Segmentation (ECCV2022)](https://github.com/wjf5203/VNext)
+### 5. IDOL: In Defense of Online Models for Video Instance Segmentation (ECCV2022)
+[github](https://github.com/wjf5203/VNext)
 
 We propose a framework In Defense of OnLine models for video instance segmentation, termed IDOL. The key idea is to ensure, in the embedding space, the similarity of the same instance across frames and the difference of differ- ent instances in all frames, even for instances that belong to the same category and have similar appearances.
 
