@@ -1,10 +1,10 @@
-- [Video Instance Segmentation](#video-instance-segmentation)
-  * [1. InstanceFormer: An Online Video Instance Segmentation Framework (AAAI2023)](#1-instanceformer--an-online-video-instance-segmentation-framework--aaai2023-)
-  * [2. VITA: Video Instance Segmentation via Object Token Association (NIPS2022)](#2-vita--video-instance-segmentation-via-object-token-association--nips2022-)
-  * [3. DeVIS: Making Deformable Transformers Work for Video Instance Segmentation (Arxiv2022)](#3-devis--making-deformable-transformers-work-for-video-instance-segmentation--arxiv2022-)
-  * [4. MinVIS: A Minimal Video Instance Segmentation Framework without Video-based Training (NIPS2022)](#4-minvis--a-minimal-video-instance-segmentation-framework-without-video-based-training--nips2022-)
-  * [5. IDOL: In Defense of Online Models for Video Instance Segmentation (ECCV2022)](#5-idol--in-defense-of-online-models-for-video-instance-segmentation--eccv2022-)
-- [Shadow Detection/Removal](#shadow-detection-removal)
+- [Video Instance Segmentation](##video-instance-segmentation)
+  * [1. InstanceFormer: An Online Video Instance Segmentation Framework (AAAI2023)](###1-instanceformer--an-online-video-instance-segmentation-framework--aaai2023-)
+  * [2. VITA: Video Instance Segmentation via Object Token Association (NIPS2022)](###2-vita--video-instance-segmentation-via-object-token-association--nips2022-)
+  * [3. DeVIS: Making Deformable Transformers Work for Video Instance Segmentation (Arxiv2022)](###3-devis--making-deformable-transformers-work-for-video-instance-segmentation--arxiv2022-)
+  * [4. MinVIS: A Minimal Video Instance Segmentation Framework without Video-based Training (NIPS2022)](###4-minvis--a-minimal-video-instance-segmentation-framework-without-video-based-training--nips2022-)
+  * [5. IDOL: In Defense of Online Models for Video Instance Segmentation (ECCV2022)](###5-idol--in-defense-of-online-models-for-video-instance-segmentation--eccv2022-)
+- [Shadow Detection/Removal](##shadow-detection-removal)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
