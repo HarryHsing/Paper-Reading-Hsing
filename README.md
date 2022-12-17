@@ -6,6 +6,7 @@
   - [5. IDOL: In Defense of Online Models for Video Instance Segmentation (ECCV2022)](#5-idol-in-defense-of-online-models-for-video-instance-segmentation-eccv2022)
 - [Shadow Detection/Removal](#shadow-detectionremoval)
 - [Tracking Any Point](#tracking-any-point)
+  - [1. TAP-Vid: A Benchmark for Tracking Any Point in a Video (NIPS2022)](#1-tap-vid-a-benchmark-for-tracking-any-point-in-a-video-nips2022)
 
 
 ## Video Instance Segmentation
