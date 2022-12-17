@@ -5,6 +5,7 @@
   - [4. MinVIS: A Minimal Video Instance Segmentation Framework without Video-based Training (NIPS2022)](#4-minvis-a-minimal-video-instance-segmentation-framework-without-video-based-training-nips2022)
   - [5. IDOL: In Defense of Online Models for Video Instance Segmentation (ECCV2022)](#5-idol-in-defense-of-online-models-for-video-instance-segmentation-eccv2022)
 - [Shadow Detection/Removal](#shadow-detectionremoval)
+- [Tracking Any Point](#tracking-any-point)
 
 
 ## Video Instance Segmentation
@@ -65,4 +66,8 @@ However, previous method [30] selects positive and negative samples by a hand-cr
 
 ## Shadow Detection/Removal
 
+
+## Tracking Any Point
+
+In this paper, we first formalize the problem, naming it tracking any point (TAP). We introduce a companion benchmark, TAP-Vid, which is composed of both real-world videos with accurate human annotations of point tracks, and synthetic videos with perfect ground-truth point tracks. Central to the construction of our benchmark is a novel semi-automatic crowdsourced pipeline which uses optical flow estimates to compensate for easier, short-term motion like camera shake, allowing annotators to focus on harder sections of video. We validate our pipeline on synthetic data and propose a simple end-to-end point tracking model TAP-Net, showing that it outperforms all prior methods on our benchmark when trained on synthetic data.
 
