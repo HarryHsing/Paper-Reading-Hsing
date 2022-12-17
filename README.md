@@ -68,6 +68,9 @@ However, previous method [30] selects positive and negative samples by a hand-cr
 
 
 ## Tracking Any Point
+### 1. TAP-Vid: A Benchmark for Tracking Any Point in a Video (NIPS2022)
+[github](https://github.com/deepmind/tapnet)
 
 In this paper, we first formalize the problem, naming it tracking any point (TAP). We introduce a companion benchmark, TAP-Vid, which is composed of both real-world videos with accurate human annotations of point tracks, and synthetic videos with perfect ground-truth point tracks. Central to the construction of our benchmark is a novel semi-automatic crowdsourced pipeline which uses optical flow estimates to compensate for easier, short-term motion like camera shake, allowing annotators to focus on harder sections of video. We validate our pipeline on synthetic data and propose a simple end-to-end point tracking model TAP-Net, showing that it outperforms all prior methods on our benchmark when trained on synthetic data.
 
+![image](https://user-images.githubusercontent.com/36613867/208254844-1ff4d470-d92b-483a-8c3d-44ed126fa949.png)
