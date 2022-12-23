@@ -7,6 +7,7 @@
 - [Shadow Detection/Removal](#shadow-detectionremoval)
 - [Tracking Any Point](#tracking-any-point)
   - [1. TAP-Vid: A Benchmark for Tracking Any Point in a Video (NIPS2022)](#1-tap-vid-a-benchmark-for-tracking-any-point-in-a-video-nips2022)
+  - [2.  Particle Video Revisited: Tracking Through Occlusions Using Point Trajectories (ECCV2022)](#2--particle-video-revisited-tracking-through-occlusions-using-point-trajectories-eccv2022)
 
 
 ## Video Instance Segmentation
@@ -75,3 +76,10 @@ However, previous method [30] selects positive and negative samples by a hand-cr
 In this paper, we first formalize the problem, naming it tracking any point (TAP). We introduce a companion benchmark, TAP-Vid, which is composed of both real-world videos with accurate human annotations of point tracks, and synthetic videos with perfect ground-truth point tracks. Central to the construction of our benchmark is a novel semi-automatic crowdsourced pipeline which uses optical flow estimates to compensate for easier, short-term motion like camera shake, allowing annotators to focus on harder sections of video. We validate our pipeline on synthetic data and propose a simple end-to-end point tracking model TAP-Net, showing that it outperforms all prior methods on our benchmark when trained on synthetic data.
 
 ![image](https://user-images.githubusercontent.com/36613867/208254844-1ff4d470-d92b-483a-8c3d-44ed126fa949.png)
+
+### 2.  Particle Video Revisited: Tracking Through Occlusions Using Point Trajectories (ECCV2022)
+[github](https://github.com/aharley/pips)
+
+We propose Persistent Independent Particles (PIPs), a method for multi-frame point trajectory estimation through occlusions. Our method combines cost volumes and iterative inference with a deep temporal network, which jointly reasons about location and appearance of visual entities across multiple timesteps. We argue that optical flow, particle videos, and feature matches cover different areas in the spectrum of pixel-level correspondence tasks. Particle videos benefit from temporal context, which matching-based methods lack, and can also survive multi-frame occlusions, which is missing in flow-based methods.
+
+Our overall approach has four stages, somewhat similar to the RAFT optical flow method [32]: extracting visual features (Section 3.2), initializing a list of positions and features for each target (Section 3.3), locally measuring appearance similarity (Section 3.4), and repeatedly updating the positions and features for each target (Section 3.5). Figure 2 shows an overview of the method.
