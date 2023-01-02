@@ -92,5 +92,6 @@ Our overall approach has four stages, somewhat similar to the RAFT optical flow 
 
 ### 1.  RAFT: Recurrent All-Pairs Field Transforms for Optical Flow (ECCV2020)
 [github](https://github.com/princeton-vl/RAFT)
+[video](https://www.youtube.com/watch?v=r3ZtW30exoo&ab_channel=jonassenli)
 
 We introduce Recurrent All-Pairs Field Transforms (RAFT), a new deep network architecture for optical flow. RAFT extracts per-pixel features, builds multi-scale 4D correlation volumes for all pairs of pixels, and iteratively updates a flow field through a recurrent unit that performs lookups on the correlation volumes.
