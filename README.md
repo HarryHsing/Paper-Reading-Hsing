@@ -8,6 +8,8 @@
 - [Tracking Any Point](#tracking-any-point)
   - [1. TAP-Vid: A Benchmark for Tracking Any Point in a Video (NIPS2022)](#1-tap-vid-a-benchmark-for-tracking-any-point-in-a-video-nips2022)
   - [2.  Particle Video Revisited: Tracking Through Occlusions Using Point Trajectories (ECCV2022)](#2--particle-video-revisited-tracking-through-occlusions-using-point-trajectories-eccv2022)
+- [Optical Flow](#optical-flow)
+  - [1.  RAFT: Recurrent All-Pairs Field Transforms for Optical Flow (ECCV2020)](#1--raft-recurrent-all-pairs-field-transforms-for-optical-flow-eccv2020)
 
 
 ## Video Instance Segmentation
@@ -85,3 +87,10 @@ We propose Persistent Independent Particles (PIPs), a method for multi-frame poi
 Our overall approach has four stages, somewhat similar to the RAFT optical flow method [32]: extracting visual features (Section 3.2), initializing a list of positions and features for each target (Section 3.3), locally measuring appearance similarity (Section 3.4), and repeatedly updating the positions and features for each target (Section 3.5). Figure 2 shows an overview of the method.
 
 <img width="1001" alt="image" src="https://user-images.githubusercontent.com/36613867/209349334-c0ad528c-78f0-4319-9cb1-9cbe18013015.png">
+
+## Optical Flow
+
+### 1.  RAFT: Recurrent All-Pairs Field Transforms for Optical Flow (ECCV2020)
+[github](https://github.com/princeton-vl/RAFT)
+
+We introduce Recurrent All-Pairs Field Transforms (RAFT), a new deep network architecture for optical flow. RAFT extracts per-pixel features, builds multi-scale 4D correlation volumes for all pairs of pixels, and iteratively updates a flow field through a recurrent unit that performs lookups on the correlation volumes.
